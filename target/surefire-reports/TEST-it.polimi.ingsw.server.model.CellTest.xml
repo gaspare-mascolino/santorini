@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.polimi.ingsw.server.model.CellTest" time="0" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/gasparemascolino/Documents/GitHub/santorini/target/test-classes:/Users/gasparemascolino/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/gasparemascolino/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.72/kotlin-stdlib-jdk8-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.72/kotlin-stdlib-common-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.72/kotlin-stdlib-jdk7-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.3.72/kotlin-test-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-test-common/1.3.72/kotlin-test-common-1.3.72.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/gasparemascolino/Documents/GitHub/santorini/target/surefire 2021-06-28T14-52-51_097-jvmRun1 surefire3454212667379475951tmp surefire_08786909707314232544tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/gasparemascolino/Documents/GitHub/santorini/target/test-classes:/Users/gasparemascolino/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/gasparemascolino/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.72/kotlin-stdlib-jdk8-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.72/kotlin-stdlib-common-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.72/kotlin-stdlib-jdk7-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.3.72/kotlin-test-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-test-common/1.3.72/kotlin-test-common-1.3.72.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/gasparemascolino"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="/Users/gasparemascolino/Documents/GitHub/santorini/target/classes:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-mac.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-mac.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-mac.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-mac.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.72/kotlin-stdlib-1.3.72.jar"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/gasparemascolino/Documents/GitHub/santorini"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/gasparemascolino/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar:/Users/gasparemascolino/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar:/Users/gasparemascolino/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar:/Users/gasparemascolino/Documents/GitHub/santorini/target/test-classes:/Users/gasparemascolino/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/gasparemascolino/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.72/kotlin-stdlib-jdk8-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.72/kotlin-stdlib-common-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.72/kotlin-stdlib-jdk7-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.3.72/kotlin-test-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/jetbrains/kotlin/kotlin-test-common/1.3.72/kotlin-test-common-1.3.72.jar:/Users/gasparemascolino/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.22.1/surefire-junit4-2.22.1.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="gasparemascolino"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/gasparemascolino/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/c8/hnhl23h12yj1zbks04lx3j900000gn/T/"/>
+    <property name="idea.version" value="2021.1"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/gasparemascolino/Documents/GitHub/santorini"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/gasparemascolino/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="setDomeTest" classname="it.polimi.ingsw.server.model.CellTest" time="0"/>
+  <testcase name="levelUpTest" classname="it.polimi.ingsw.server.model.CellTest" time="0"/>
+</testsuite>

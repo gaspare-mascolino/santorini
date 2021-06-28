@@ -1,0 +1,6 @@
+it/polimi/ingsw/server/controller/divinities/DivinityTest.class
+it/polimi/ingsw/server/model/CellTest.class
+it/polimi/ingsw/server/model/WorkerTest.class
+it/polimi/ingsw/server/model/PlayerTest.class
+it/polimi/ingsw/server/model/GameBoardTest.class
+it/polimi/ingsw/server/controller/WorkerControllerTest.class
