@@ -12,6 +12,7 @@ public class Worker {
     private String color;
     private Divinity divinity;
     private Cell position;
+    private boolean check;
 
     /**
      * Builder of Worker
